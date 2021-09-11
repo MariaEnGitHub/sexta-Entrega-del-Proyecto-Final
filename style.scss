@@ -1,0 +1,19 @@
+@import "variables";
+@import "globales";
+@import "mixins";
+
+//esto de body y h2 lo hice con un ttutorial y creo que no funciona
+body{
+    background-color: $color-fondo;
+}
+
+h2{
+    color: $color-texto;
+}
+.azul{
+    @extend %todo-azul;
+}
+
+#beneficio{
+    @extend %todo-azul;
+}

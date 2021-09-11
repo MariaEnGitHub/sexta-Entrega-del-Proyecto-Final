@@ -1,0 +1,22 @@
+//MIXINS lo quiero usar para indicar que las imágenes van a tener el mismo tamaño
+
+@mixin estilo {
+    height: $alto-img;
+    width: $ancho-img;
+  }
+
+
+ // También estaba probando usarlo para cambiar el color de los h2
+
+@mixin azul {
+    $color-texto:blue;
+}
+
+//PLACE HOLDER para ponerle color azul a toda una clase
+%todo-azul{
+    $color-texto:blue;
+    border: 5px solid;
+}
+
+
+
